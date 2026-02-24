@@ -256,7 +256,7 @@ At this point, you can describe basics structure summons by putting the verb and
 Now for the fun part, we can add words and phrases to the basic VO structure to be more specific about the structure being described.
 
 These include:
-- **Number words**: Describes multiple summons
+- **Quantifying phrases**: Describes how many to summon or take
 - **Attribute phrases**: Describes the state of taken structures. Only valid for "取" (take).
 - **Symbol assignment phrases**: Assigns a symbol to the structure for reference later. (Think varaible name assignment)
 - **Positional phrases**: Describes the position of the structure, usually relative to a player or another structure.
@@ -266,7 +266,7 @@ They **must** be put together in this sequence
 
 ```
 1. Structure source word (Verb)
-2. Number word
+2. Quantifying phrase
 3. Attributes phrase
 4. Structure type word (Object)
 5. Positional phrase
@@ -274,7 +274,7 @@ They **must** be put together in this sequence
 7. Intent phrase
 ```
 
-#### Number words: Multiple summons
+#### Quantifying Phrase: How many?
 
 If and only if multiple structures **of the same type and attribute** are summoned or taken in a row, then a number can be used to notate the number of structures being sourced.
 
@@ -285,13 +285,15 @@ If and only if multiple structures **of the same type and attribute** are summon
 取二入土之方 -> Take two grounded cubes
 ```
 
-If no number words are mentioned, it is assumed to be one structure that is being sourced.
+If there are no quantifying phrases, it is assumed to be one.
 
 #### Attribute phrases: Adjectives for structures
 
-When using 取 (taking pre-existing structure), attribute phrases can be added to restrict which structures are appropriate for the move.
+When using 取 (taking pre-existing structure), attribute phrases can be added to restrict which structures are appropriate for the move. 
 
-They are all adjectives for structures, listed in the table below:
+The reason why attribute phrases cannot be used by 召 is because the player would be applying the modifiers to the summoned structure, so it would be more accurate to describe the move using modifier or interaction clauses.
+
+Attribute words are all **adjectives**, listed in the table below:
 
 | Attribute word | Lit. Meaning           | Pronunciation  | Meaning in English | Valid for          |
 | -------------- | ---------------------- | -------------- | ------------------ | ------------------ |

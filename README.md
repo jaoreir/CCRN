@@ -226,7 +226,7 @@ There are only two source words: "召" and " 取"
 
 ### Structure Phrases
 
-Structure phrases are noun phrases that describe structures. They consist of at least the **type word**, the noun, and a bunch of adjectives.
+Structure phrases are noun phrases that describe structures. They consist of at least the **type word** as the noun, describing which type of structure is needed. Additional phrases and adjectives can then be added to the structure phrase to give more information about the structure.
 
 ### Type word (Noun)
 

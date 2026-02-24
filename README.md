@@ -257,7 +257,7 @@ These include:
 - **Number words**: Describes multiple summons
 - **Attribute phrases**: Describes the state of taken structures. Only valid for "取" (take).
 - **Symbol assignment phrases**: Assigns a symbol to the structure for reference later. (Think varaible name assignment)
-- **Positional phrases**: Describes position of the structure, usually relative to a player or **another structure phrase**. (Nested structure phrases go brrrrr)
+- **Positional phrases**: Describes the position of the structure, usually relative to a player or another structure.
 - **Intent phrases**: Describes why the structure is summoned or taken.
 
 They **must** be put together in this sequence
@@ -332,7 +332,6 @@ They consist of these elements in order:
 2. Object: Another object, which could be one of the following:
 	- 己: The player
 	- 敵: The opponent
-	- Another structure phrase
 	- Reference to a structure
 3. Relative location
 	- 上: Above
@@ -347,8 +346,8 @@ They consist of these elements in order:
 Examples
 
 ```
-召方於地之下，揚之 -> Summon cube under opponent, kick it (the cube).
-召牆於入土之牆下，擊之。 -> Summon wall under grounded wall, straight it (the previously grounded wall).
+召方於敵下，揚之 -> Summon cube under opponent, kick it (the cube).
+取入土爭搶，召牆於其下，擊之。 -> Take grounded wall, summon wall under it, straight it (the wall being summoned).
 ```
 
 ---
@@ -387,12 +386,21 @@ From most implicit to most explicit, they are:
 #### Last mentioned structure
 
 The most common structure to reference is the last one mentioned.
-Use "之" (zhi1) to reference the last structure mentioned.
+
+Use "之" (zhi1) to reference the last structure mentioned in most cases, but use “其” (qi2) for positional phrases.
+
+```
+召方於敵下，揚之 -> Summon cube under opponent, kick it (the cube).
+取入土爭搶，召牆於其下，擊之。 -> Take grounded wall, summon wall under it, straight it (the wall being summoned).
+```
 
 #### Implicit Reference
 
 When describing moves, whenever you describe a structure, a number is implicitly assigned to each structure you mention.
+
 You can use "其" (qi2) followed by a regular number to reference any particular structure.
+
+In other words, use "其" to reference a structure by the order of appearance in the entire move.
 
 ##### Examples
 
@@ -403,30 +411,11 @@ c1c2JSK1 -> 召二方，躍，擊揚其一。
 - 擊揚其一 (Modifier clause): Straight-kick the first (cube)
 ```
 
-
 ```
 c1c2.HSU2 -> 召二方，待，持擊勾其二。
 - 召二方 (Structure clause): Summon two cubes
 - 待 (Movement clause): Wait
 - 持擊勾其二 (Modifier clause): Hold, Straight, Uppercut the second (cube)
-```
-
-##### Exception: Positional structures are ignored
-
-When implicitly referencing structures using "之" or "其", the structure phrases contained in positional phrases are ignored.
-
-```
-取出土之方於出土之方側，扭之。 -> Take ungrounded cube next to ungrounded cube, flick it (the first ungrounded cube).
-- 取出土之方於出土之方側: Structure clause
-	- 取: Take
-	- 出土之方: Ungrounded cube (Implicit assigned as 一)
-	- 於出土之方側: Positional phrase
-		- 於: at
-		- 出土之方: ungrounded cube (Not implicitly assigned)
-		- 側: side
-- 扭之: Modifier cluase
-	- 扭: Flick
-	- 之: It (References 一)
 ```
 
 #### Explicit Reference

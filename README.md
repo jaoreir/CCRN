@@ -189,15 +189,15 @@ An exception is that for **pre-existing structures**, they should be mentioned *
 Example
 
 ```
-(Legal) 召方，持擊勾之，取來之方，持擊勾之。
+(Legal) 召方，持擊勾之，取前來之方，持擊勾之。
 
 - 召方 (Structure phrase): Summon cube
 - 持擊勾之 (Modifier phrase): Hold straight uppercut it (the summoned cube)
-- 取來之方 (Structure phrase): Take incoming cube
+- 取前來之方 (Structure phrase): Take incoming cube
 - 持擊勾之 (Modifier phrase): HSU it (the incoming cube)
 
-(Legal but confusing) 取來之方，召方，持擊勾其二，持擊勾其一。
-- 取來之方 (Structure phrase): Take incoming cube (implicitly assigned as 一)
+(Legal but confusing) 取前來之方，召方，持擊勾其二，持擊勾其一。
+- 取前來之方 (Structure phrase): Take incoming cube (implicitly assigned as 一)
 - 召方 (Structure phrase): Summon a cube (implicitly assigned as 二)
 - 持擊勾其二 (Modifier phrase): HSU the second one (summoned cube)
 - 持擊勾其一 (Modifier phrase): HSU the first one (incoming cube)

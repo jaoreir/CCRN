@@ -414,7 +414,6 @@ c1c2.HSU2 -> 召二方，待，持擊勾其二。
 ##### Exception: Positional structures are ignored
 
 When implicitly referencing structures using "之" or "其", the structure phrases contained in positional phrases are ignored.
-For more info see "Structure Reference Phrases"
 
 ```
 取出土之方於出土之方側，扭之。 -> Take ungrounded cube next to ungrounded cube, flick it (the first ungrounded cube).

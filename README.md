@@ -54,7 +54,7 @@ Instead, only **4 types of clauses** are allowed to be used to describe moves:
 	- 召二石: Summon two balls
 	- 取方: Take cube
 	- 取入土之木: Take grounded pillar
-	- 取出土之轟牆: Take ungrounded exploded wall
+	- 取出土轟爆之牆: Take ungrounded exploded wall
 2. **Modifier Clauses**: Describes how a structure is modified by a player.
 	- 擊之: Straight it
 	- 擊勾之: Struppercut it

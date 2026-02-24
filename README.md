@@ -1,4 +1,6 @@
-Classical Chinese Rumble Notation (CCRN) is a notation system using classical Chinese to describe [RUMBLE VR](https://store.steampowered.com/app/890550/RUMBLE/) earthbending moves.
+# 運土記法 - Classical Chinese Rumble Notation
+
+運土記法 (Classical Chinese Rumble Notation) is a notation system using classical Chinese to describe [RUMBLE VR](https://store.steampowered.com/app/890550/RUMBLE/) earthbending moves.
 
 ## Examples
 

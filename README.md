@@ -15,6 +15,7 @@
 | Wall trampoline         | 召牆，取出土平躺轟爆之牆，擊揚其一以擊其二。 | Summon wall, take ungrounded flat exploded wall, straight-kick the first wall to hit the second wall. |
 | High dive               | 二躍，取飛躍之物，扭之，騎之以飛昇。     | Double jump, take flying object, flick it, mount it to fly.                                           |
 | Cube waterbend          | 取出土之方，扭持之，以之觸來之物以免破。   | Take ungrounded cube, flick hold it, use it to touch incoming object to avoid destruction.            |
+| Amp Stack               | 召二方，持其一，召方於其下，扭其二，持其三。 | Summon two cubes, hold the first, summon cube under, flick the second, hold the third.                |
 
 ---
 
